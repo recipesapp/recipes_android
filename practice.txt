@@ -1,0 +1,74 @@
+Легенда:
+	uppercase = ще се прави първо
+	lowercase = ще се прави ако остане време
+
+Action item – github repo – Dimitar 
+Action item – send HCP Tools help (to backend team)- Dimitar	
+Action item – submit fronted (project dir) - Melani
+Action item – submit backend (project dir) - Stoicho 
+
+Links:
+	Version Control System – Git https://try.github.io/levels/1/challenges/1
+	JSON validation - http://jsonlint.com/
+	
+Front end – Симо, Мелани, Павлена
+Back end – Димитър, Лорен, Стойчо
+
+Архитектура: 
+1.	Потребител:
+	a.	Login with facebook
+	b.	РЕГИСТРАЦИЯ – МЕЙЛ И ПАРОЛА
+	c.	В профила – ГОДИНИ, ТЕГЛО, ВИСОЧИНА, списък храни, към които съм алергичен
+	d.	РЕГИСТРИРАН – ДОБАВЯНЕ, GUEST – САМО ГЛЕДА
+	e.	NEWS FEED – СОРТИРАНИ ПО ДАТА НА ДОБАВЯНЕ
+	f.	Списък с рецепти
+	g.	Follow
+	h.	Приоритизиран news feed според following
+	i.	BMR calculator
+2.	Рецепта:
+	a.	ДАТА НА ДОБАВЯНЕ
+	b.	ИМЕ, ПРОДУКТИ (уред), ВРЕМЕ ЗА ПРИГОТВЯНЕ, цена, СНИМКА(choose form gallery / capture from app), категория, сложност, БРОЙ ПОРЦИИ, автор
+	c.	Атрибут – за вегани / вегетарианци / месоядни 
+	d.	Алергени – списък с храни
+	e.	Националност
+	f.	РЕЙТИНГ, КОМЕНТАРИ(ЗА РЕГИСТРИРАНИ)
+	g.	Share to facebook (ако има login с FB)
+3.	Категория:
+	a.	ПРЕДЯСТИЕ, ОСНОВНО, ДЕСЕРТ
+4.	Търсене:
+	a.	ПО ИМЕ НА ЯСТИЕ
+	b.	Advanced – по продукти, ПО КАТЕГОРИЯ, ПО ВРЕМЕ / сложност, по цена, по атрибути, С/БЕЗ СНИМКА, филтър без храни, към които съм алергичен
+	c.	Full text search (lucene)
+
+Daily sync – от понеделник, всеки ден по 15 мин. (какво правих, какво ще правя, имам ли проблеми), час TBD
+	
+Skype meeting – понеделник и сряда в 14
+
+Live – Вторник и четвъртък 
+
+Frontend – HTTP 1.1, Android SDK, gradle, facebook sdk (low prio)
+Backend – maven, JPA, REST API, CXF, Entity-Relationship Mapping, Gson
+
+Backlog:
+1.	Create a Github repo
+2.	Setup Android project skeleton & push to github
+3.	Setup Java webapp backend & push to github
+4.	Design REST API, request + expected response
+	a.	Add recipe,
+	b.	Edit recipe
+	c.	Delete recipe
+	d.	List all recipes + criteria
+	e.	Create user
+	f.	Login (MD5 hash match)
+	g.	Edit user info
+	h.	Rate recipe 
+	i.	Comment recipe
+5.	Frontend
+	а. UI screens design
+	b. min sdk version 19 (4.4.2)
+6.	Backend
+	a.	Working JPA + db connection for HCP като цяло
+	b.	Data model for app
+
+За понеделник:
+	Frontend – начертан, submit-нат в гитхъб
