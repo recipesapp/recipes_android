@@ -24,7 +24,20 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="60dp"
-        style="@style/Animation.AppCompat.Dialog" />
+        style="@style/Animation.AppCompat.Dialog"
+        android:clickable="true"
+        android:layout_toStartOf="@+id/editText5"
+        android:layout_toLeftOf="@id/editText5"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_prof"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:onClick="editProfile"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -72,10 +85,10 @@
         android:minHeight="148dp"
         android:minWidth="144dp"
         android:longClickable="false"
+        android:visibility="visible"
         android:layout_above="@+id/editText"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:visibility="visible" />
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
