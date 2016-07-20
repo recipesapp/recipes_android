@@ -54,7 +54,8 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".Profile" />
-        <activity android:name=".MyProfile"></activity>
+        <activity android:name=".MyProfile" />
+        <activity android:name=".MyRecipies"></activity>
     </application>
 
 </manifest>
