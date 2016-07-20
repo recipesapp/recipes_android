@@ -30,9 +30,9 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <android.support.design.widget.TextInputLayout
+            <UserName
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
 
                 <AutoCompleteTextView
                     android:id="@+id/email"
@@ -43,9 +43,9 @@
                     android:maxLines="1"
                     android:singleLine="true" />
 
-            </android.support.design.widget.TextInputLayout>
+            </UserName>
 
-            <android.support.design.widget.TextInputLayout
+            <Password
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -61,7 +61,7 @@
                     android:maxLines="1"
                     android:singleLine="true" />
 
-            </android.support.design.widget.TextInputLayout>
+            </Password>
 
             <Button
                 android:id="@+id/email_sign_in_button"
