@@ -21,7 +21,7 @@ import java.util.concurrent.ExecutionException;
 
 public class BackendFacade {
 
-    private static final String BACKEND_API_URL = "http://10.0.2.2:8080/recipes-backend/api/v1/";
+    private static final String BACKEND_API_URL = "https://recipesi322053trial.hanatrial.ondemand.com/recipes-backend/api/v1/";
 
     public JsonArray getRecipes(){
         ResourceConsumer consumer = new ResourceConsumer();

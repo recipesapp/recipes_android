@@ -56,7 +56,11 @@
         <activity android:name=".Profile" />
         <activity android:name=".MyProfile" />
         <activity android:name=".MyRecipies" />
-        <activity android:name=".FavouriteRecipies"></activity>
+        <activity android:name=".FavouriteRecipies" />
+        <activity
+            android:name=".MainCourses"
+            android:label="@string/title_activity_main_courses"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
