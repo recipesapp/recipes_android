@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageButton5"
         android:layout_alignTop="@+id/textView7"
-        android:src="@mipmap/backspace"
+        android:src="@drawable/backspace"
         android:maxHeight="30dp"
         android:maxWidth="30dp"
         android:minHeight="30dp"
