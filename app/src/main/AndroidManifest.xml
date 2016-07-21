@@ -50,7 +50,11 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".MyRecipies" />
-        <activity android:name=".FavouriteRecipies"></activity>
+        <activity android:name=".FavouriteRecipies" />
+        <activity
+            android:name=".MainCourses"
+            android:label="@string/title_activity_main_courses"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
