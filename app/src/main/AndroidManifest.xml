@@ -55,7 +55,8 @@
 
         <activity android:name=".Profile" />
         <activity android:name=".MyProfile" />
-        <activity android:name=".MyRecipies"></activity>
+        <activity android:name=".MyRecipies" />
+        <activity android:name=".FavouriteRecepies"></activity>
     </application>
 
 </manifest>
