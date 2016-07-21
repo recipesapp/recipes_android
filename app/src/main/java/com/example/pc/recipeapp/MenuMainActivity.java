@@ -14,8 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class MenuMainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class MenuMainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     NavigationView navigationView = null;
     Toolbar toolbar = null;
@@ -59,6 +58,9 @@ public class MenuMainActivity extends AppCompatActivity
         emailText.setText("newemail@email.com");
 
         navigationView.setNavigationItemSelectedListener(this);
+//
+//        Intent intent = new Intent(this, MyProfile.class);
+//        startActivity(intent);
     }
 
     @Override
