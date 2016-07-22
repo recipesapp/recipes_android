@@ -58,7 +58,7 @@ public class BackendFacade {
 
     public JsonArray getFavoriteUserRecipesByCategory(Long userId, String category){
         ResourceConsumer consumer = new ResourceConsumer();
-        AsyncTask<String, Integer, JsonElement> task = consumer.execute("GET", BACKEND_API_URL + "user/favorites?userId" + String.valueOf(userId) + "&category="+category);
+        AsyncTask<String, Integer, JsonElement> task = consumer.execute("GET", BACKEND_API_URL + "recipes/favorites?userId=" + String.valueOf(userId) + "&category="+category);
         try {
             return task.get().getAsJsonArray();
         } catch (Exception e){

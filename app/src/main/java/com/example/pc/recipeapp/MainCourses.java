@@ -22,26 +22,19 @@ public class MainCourses extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         BackendFacade backendFacade = new BackendFacade();
-        JsonArray mainRecipies = backendFacade.getFavoriteUserRecipesByCategory(3L, "MAIN");
-        JsonObject object = mainRecipies.get(0).getAsJsonObject();
+        JsonArray mainRecipies = backendFacade.getFavoriteUserRecipesByCategory(420L, "MAIN");
+        JsonObject object = mainRecipies.get(1).getAsJsonObject();
         String name = object.get("name").getAsString();
 
         TextView recipeNameView = (TextView) this.findViewById(R.id.textView10);
         recipeNameView.setText(name);
 
-        JsonObject objectOne = mainRecipies.get(2).getAsJsonObject();
-        String nameOne = object.get("name").getAsString();
+        JsonObject objectOne = mainRecipies.get(0).getAsJsonObject();
+        String nameOne = objectOne.get("name").getAsString();
 
 
         TextView recipeNameViewSecond = (TextView) this.findViewById(R.id.textView11);
-        recipeNameView.setText(nameOne);
-
-        JsonObject objectTwo = mainRecipies.get(2).getAsJsonObject();
-        String nameTwo = object.get("name").getAsString();
-
-        TextView recipeNameViewThird = (TextView) this.findViewById(R.id.textView12);
-        recipeNameView.setText(nameTwo);
-
+        recipeNameViewSecond.setText(nameOne);
 
 
 

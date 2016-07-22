@@ -1,6 +1,7 @@
 package com.example.pc.recipeapp;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -38,7 +39,8 @@ public class FavouriteRecepiesFragment extends Fragment {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "sdaasdsa", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(getActivity(), MainCourses.class);
+                startActivity(intent);
             }
         });
     }

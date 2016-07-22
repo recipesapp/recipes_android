@@ -48,21 +48,8 @@
         android:layout_below="@+id/imageView4"
         android:layout_alignLeft="@+id/imageView4"
         android:layout_alignStart="@+id/imageView4"
-        android:src="@mipmap/pile" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView6"
-        android:maxHeight="80dp"
-        android:maxWidth="80dp"
-        android:minHeight="80dp"
-        android:minWidth="80dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/imageView5"
-        android:layout_alignStart="@+id/imageView5"
-        android:layout_marginBottom="91dp"
         android:src="@mipmap/musakichka" />
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -86,15 +73,5 @@
         android:layout_alignRight="@+id/textView10"
         android:layout_alignEnd="@+id/textView10" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView12"
-        android:layout_alignBottom="@+id/imageView6"
-        android:layout_alignTop="@+id/imageView6"
-        android:layout_alignRight="@+id/textView11"
-        android:layout_alignEnd="@+id/textView11"
-        android:layout_toRightOf="@+id/imageView6"
-        android:layout_toEndOf="@+id/imageView6" />
+
 </RelativeLayout>

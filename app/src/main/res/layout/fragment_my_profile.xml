@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Age: 20"
+        android:text="Age: "
         android:id="@+id/textView3"
         android:clickable="true"
         android:editable="false"
