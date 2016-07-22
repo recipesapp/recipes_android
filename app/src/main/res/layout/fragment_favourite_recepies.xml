@@ -23,45 +23,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton6"
-        android:layout_below="@+id/textView8"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="73dp"
         android:maxHeight="80dp"
         android:maxWidth="80dp"
         android:minHeight="80dp"
         android:minWidth="80dp"
-        android:src="@mipmap/custom_button"
-        android:clickable="true" />
+        android:src="@drawable/custom_button"
+        android:clickable="true"
+        android:background="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton7"
-        android:minWidth="80dp"
-        android:maxWidth="80dp"
-        android:minHeight="80dp"
-        android:maxHeight="80dp"
-        android:src="@mipmap/main"
+        android:minWidth="60dp"
+        android:maxWidth="60dp"
+        android:minHeight="60dp"
+        android:maxHeight="60dp"
+        android:src="@drawable/main"
         android:clickable="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8"
+        android:background="#ffffff" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton8"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="67dp"
-        android:maxHeight="80dp"
-        android:maxWidth="80dp"
-        android:minHeight="80dp"
-        android:minWidth="80dp"
-        android:src="@mipmap/desert"
+        android:maxHeight="40dp"
+        android:maxWidth="40dp"
+        android:minHeight="40dp"
+        android:minWidth="40dp"
+        android:src="@drawable/desert"
         android:clickable="true"
         android:scaleType="centerInside"
-        android:layout_alignParentTop="false"
-        android:layout_alignParentLeft="false"
-        android:layout_centerHorizontal="true"
-        android:cropToPadding="false" />
+        android:cropToPadding="false"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
