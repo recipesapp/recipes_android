@@ -103,6 +103,7 @@ public class MenuMainActivity extends AppCompatActivity implements NavigationVie
 
         if (id == R.id.nav_myprofile) {
             //Set the fragment initially
+            setTitle("My Profile");
             MyProfileFragment fragment = new MyProfileFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
@@ -111,6 +112,7 @@ public class MenuMainActivity extends AppCompatActivity implements NavigationVie
 
         } else if (id == R.id.nav_newrecepie) {
             //Set the fragment initially
+            setTitle("Add New Recipe");
             NewRecepieFragment fragment = new NewRecepieFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
@@ -119,6 +121,7 @@ public class MenuMainActivity extends AppCompatActivity implements NavigationVie
 
         } else if (id == R.id.nav_myrecepies) {
             //Set the fragment initially
+            setTitle("My Recipes");
             MyRecepiesFragment fragment = new MyRecepiesFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
@@ -127,6 +130,7 @@ public class MenuMainActivity extends AppCompatActivity implements NavigationVie
 
         } else if (id == R.id.nav_favouriterecepies) {
             //Set the fragment initially
+            setTitle("My Favourite Recipes");
             FavouriteRecepiesFragment fragment = new FavouriteRecepiesFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();

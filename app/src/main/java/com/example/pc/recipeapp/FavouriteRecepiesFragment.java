@@ -2,10 +2,14 @@ package com.example.pc.recipeapp;
 
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 
 /**
@@ -22,8 +26,20 @@ public class FavouriteRecepiesFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        getActivity().setTitle("Favourite Recipies");// Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_favourite_recepies, container, false);
     }
 
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        final ImageButton button1 = (ImageButton) getActivity().findViewById(R.id.imageButton6);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "sdaasdsa", Toast.LENGTH_LONG).show();
+            }
+        });
+    }
 }
