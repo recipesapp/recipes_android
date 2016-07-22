@@ -35,7 +35,7 @@ public class FavouriteRecepiesFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        final ImageButton button1 = (ImageButton) getActivity().findViewById(R.id.imageButton6);
+        final ImageButton button1 = (ImageButton) getActivity().findViewById(R.id.imageButton7);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
